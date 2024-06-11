@@ -5,7 +5,7 @@ import main.java.com.magicvet.component.AplicationRunner;
 import java.util.Scanner;
 
 public class Main {
-    static String PASSWORD = "default";
+    static String PASSWORD = "d";
     public static Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
