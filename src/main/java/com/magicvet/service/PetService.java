@@ -14,7 +14,7 @@ public class PetService {
             Pet pet = new Pet();
             System.out.print("dog / cat /other: ");
             String type = Main.SCANNER.nextLine();
-//        pet.setType(type);
+        pet.setType(type);
             if (DOG_TYPE.equals(type)) {
                 pet = buildDog();
             } else {
@@ -37,6 +37,7 @@ public class PetService {
 
     private Dog petToDog(Pet pet) {
         Dog dog = new Dog();
+        dog.setType(pet.getType());
         dog.setAge(pet.getAge());
         dog.setName(pet.getName());
         dog.setSex(pet.getSex());

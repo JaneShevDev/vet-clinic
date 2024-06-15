@@ -20,7 +20,7 @@ public class AplicationRunner {
                     System.out.println("Pet has been added.");
                     System.out.println(client);
                 }else {
-                    System.out.println("Ok,By");
+                    System.out.println("Ok, maybe next time.");
                 }
             }
         }
