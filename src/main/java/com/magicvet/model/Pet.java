@@ -8,6 +8,7 @@ public abstract class Pet {
     private String age;
     private String name;
     private String ownerName;
+
     @Override
     public String toString(){
         return "\n\tType: " + type
@@ -15,7 +16,6 @@ public abstract class Pet {
                 + ", Age: " + age
                 + ", Name: " + name;
     }
-
     public String getType() {
         return type;
     }
