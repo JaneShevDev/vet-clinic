@@ -18,13 +18,9 @@ public class AplicationRunner {
                     client.setPet(pet);
                     pet.setOwnerName(client.getFirstName() + " " + client.getLastName());
                     System.out.println("Pet has been added.");
-                    System.out.println(client);
-                }else {
-                    System.out.println("Ok, maybe next time.");
                 }
+                System.out.println(client);
             }
         }
     }
-
-
 }
