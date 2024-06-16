@@ -39,7 +39,7 @@ public class PetService {
         pet.setSex(Main.SCANNER.nextLine());
 
         if (type.equals(DOG_TYPE)){
-            System.out.println("Size (XS/S/M/L/XXL): ");
+            System.out.println("Size (XS/S/M/L/XL): ");
             ((Dog) pet).setSize(Main.SCANNER.nextLine());
         }
 
