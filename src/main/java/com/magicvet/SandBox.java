@@ -3,6 +3,7 @@ package main.java.com.magicvet;
 import main.java.com.magicvet.comparator.CatAgeComparator;
 //import main.java.com.magicvet.comparator.DogSizeComparator;
 import main.java.com.magicvet.model.Cat;
+import main.java.com.magicvet.model.Client;
 import main.java.com.magicvet.model.Dog;
 import main.java.com.magicvet.model.Pet;
 
@@ -64,6 +65,7 @@ public class SandBox {
 //            System.out.println(pet.getHealthState());
 //        }
 
+        System.out.println(new Client());
         System.out.println(new Cat());
         }
     }
